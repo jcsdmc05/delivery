@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>Delivery</title>
+    <link rel="icon" href="static/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="static/css/style.css" charset="utf-8" />
+    <link rel="manifest" href="manifest.json" />
+    <!-- iOS Support -->
+    <link rel="apple-touch-icon" href="static/img/favicon.png" />
+    <meta name="theme-color" content="#dc2626" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="py-1_5 text-center">
+          <h1 class="text-danger">
+            <img
+              class="logo"
+              src="static/img/logo.svg"
+              width="160"
+              height="160"
+              alt=""
+            />
+            <small class="title">Delivery</small>
+          </h1>
+        </div>
+        <div class="col-12">
+          <form action="">
+            <div class="row g-1">
+              <div class="col-12">
+                <label class="form-label" for="estabelecimento">
+                  Nome do Estabelecimento</label
+                >
+                <input
+                  id="estabelecimento"
+                  type="text"
+                  name="estabelecimento"
+                  class="form-control ic-form ic-shop"
+                  placeholder="Restaurante La Nostra Gola"
+                  autofocus
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="endereco_coleta">
+                  Endereço de Coleta</label
+                >
+                <input
+                  id="endereco_coleta"
+                  type="text"
+                  name="endereco_coleta"
+                  class="form-control ic-form ic-pin-map"
+                  placeholder="Avenida Brasil, 500, Centro"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="cliente">Nome do Cliente</label>
+                <input
+                  id="cliente"
+                  type="text"
+                  name="cliente"
+                  class="form-control ic-form ic-user"
+                  placeholder="José Maria da Silva"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="endereco_entrega">
+                  Endereço de Entrega</label
+                >
+                <input
+                  id="endereco_entrega"
+                  type="text"
+                  name="endereco_entrega"
+                  class="form-control ic-form ic-pin-dot"
+                  placeholder="Rua Dom Pedro II, 135, Ipiranga"
+                  required
+                />
+              </div>
+            </div>
+            <div class="my-1">
+              <div class="h4">Método de Pagamento</div>
+              <div class="form-check">
+                <input
+                  id="pix"
+                  class="form-check-input"
+                  type="radio"
+                  name="metodoPagamento"
+                  checked
+                  required
+                />
+                <label class="form-check-label" for="pix">PIX</label>
+              </div>
+              <div class="form-check">
+                <input
+                  id="dinheiro"
+                  class="form-check-input"
+                  type="radio"
+                  name="metodoPagamento"
+                  required
+                />
+                <label class="form-check-label" for="dinheiro">Dinheiro</label>
+              </div>
+              <div class="form-check">
+                <input
+                  id="credito"
+                  class="form-check-input"
+                  type="radio"
+                  name="metodoPagamento"
+                  required
+                />
+                <label class="form-check-label" for="credito"
+                  >Cartão de Crédito</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  id="debito"
+                  class="form-check-input"
+                  type="radio"
+                  name="metodoPagamento"
+                  required
+                />
+                <label class="form-check-label" for="debito"
+                  >Cartão de Débito</label
+                >
+              </div>
+              <div class="row g-1 mt-0_1">
+                <div class="col-12">
+                  <label class="form-label text-bold" for="troco">Troco</label>
+                  <input
+                    id="troco"
+                    type="number"
+                    name="troco"
+                    class="form-control ic-form ic-real-sign"
+                    step="0.01"
+                    placeholder="0.00"
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label text-bold" for="chavePIX"
+                    >Chave PIX</label
+                  >
+                  <input
+                    id="chavePIX"
+                    type="text"
+                    name="chavePIX"
+                    class="form-control ic-form ic-pix"
+                  />
+                </div>
+              </div>
+            </div>
+            <hr class="my-1_5" />
+            <p>
+              <button
+                id="calcular"
+                type="button"
+                name="calcular"
+                class="btn btn-primary mb-1_5"
+              >
+                <img src="static/img/calc.svg" width="24" height="24" alt="" />
+                <span>Calcular Trajeto</span>
+              </button>
+              <button
+                id="chamar"
+                type="submit"
+                name="chamar"
+                class="btn btn-success mb-1_5"
+              >
+                <img
+                  src="static/img/whatsapp.svg"
+                  width="24"
+                  height="24"
+                  alt=""
+                />
+                <span>Chamar</span>
+              </button>
+            </p>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="static/js/app.js" charset="utf-8"></script>
+  </body>
+</html>
