@@ -12,7 +12,7 @@ const content = [
   "./static/img/icons/icon-192.png",
   "./static/img/icons/icon-384.png",
   "./static/img/icons/icon-512.png",
-  "./static/img/icons/icon-mask.png"
+  "./static/img/icons/icon-mask.png",
   "./static/img/icons/icon-mask.svg"
 ];
 
