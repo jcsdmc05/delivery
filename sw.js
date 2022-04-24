@@ -1,16 +1,16 @@
 const storage = "delivery";
 const content = [
-  "/",
-  "/index.html",
-  "/static/js/app.js",
-  "/static/css/style.css",
-  "/static/img/favicon.png",
-  "/static/img/calc.svg",
-  "/static/img/logo.svg",
-  "/static/img/whatsapp.svg",
-  "/static/img/icons/icon-192.png",
-  "/static/img/icons/icon-384.png",
-  "/static/img/icons/icon-512.png",
+  "./",
+  "./index.html",
+  "./static/js/app.js",
+  "./static/css/style.css",
+  "./static/img/favicon.png",
+  "./static/img/calc.svg",
+  "./static/img/logo.svg",
+  "./static/img/whatsapp.svg",
+  "./static/img/icons/icon-192.png",
+  "./static/img/icons/icon-384.png",
+  "./static/img/icons/icon-512.png",
 ];
 
 // Install the serviceWorker
