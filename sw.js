@@ -5,15 +5,13 @@ const content = [
   "./static/js/app.js",
   "./static/css/style.css",
   "./static/img/favicon.png",
-  "./static/img/favicon.svg",
   "./static/img/calc.svg",
   "./static/img/logo.svg",
   "./static/img/whatsapp.svg",
   "./static/img/icons/icon-192.png",
   "./static/img/icons/icon-384.png",
   "./static/img/icons/icon-512.png",
-  "./static/img/icons/icon-mask.png",
-  "./static/img/icons/icon-mask.svg"
+  "./static/img/icons/icon-mask.png"
 ];
 
 // Install the serviceWorker
