@@ -9,9 +9,11 @@ const content = [
   "./static/img/logo.svg",
   "./static/img/whatsapp.svg",
   "./static/img/icons/icon-192.png",
-  "./static/img/icons/icon-384.png",
   "./static/img/icons/icon-512.png",
-  "./static/img/icons/icon-mask.png"
+  "./static/img/icons/icon-1024.png",
+  "./static/img/icons/icon-mask-192.png",
+  "./static/img/icons/icon-mask-512.png",
+  "./static/img/icons/icon-mask-1024.png"
 ];
 
 // Install the serviceWorker
